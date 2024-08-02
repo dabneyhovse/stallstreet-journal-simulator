@@ -1,8 +1,7 @@
 <script>
-  import { Grid, Suspense } from '@threlte/extras'
+  import { Suspense } from '@threlte/extras'
   import Ssj from './models/ssj.svelte'
   import { T, useThrelte } from '@threlte/core'
-  import { HemisphereLight, Vector3 } from 'three'
   import CameraControls from './CameraControls.svelte'
   import { cameraControls } from './stores.js'
   import LoadingScreen from './LoadingScreen.svelte'
@@ -16,6 +15,11 @@
   // renderer.toneMappingExposure = 1
 
 </script>
+
+<Suspense>
+  <LoadingScreen slot="fallback" />
+  <Ssj />
+</Suspense>
 
 <T.AmbientLight intensity={6} />
 <T.HemisphereLight
@@ -42,8 +46,3 @@
     />
   </T.PerspectiveCamera>
 </T.Group>
-
-<Suspense>
-  <LoadingScreen slot="fallback" />
-  <Ssj />
-</Suspense>

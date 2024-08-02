@@ -1,8 +1,3 @@
-<script>
-    // Define the LoadingScreen component
-    export let isLoading = true;
-</script>
-
 <style>
     .loading-screen {
         position: fixed;
@@ -10,8 +5,8 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #000;
-        color: #fff;
+        background-color: #ff6c0c;
+        color: #ffffff;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -19,8 +14,6 @@
     }
 </style>
 
-{#if isLoading}
-    <div class="loading-screen">
-        <h1>Loading...</h1>
-    </div>
-{/if}
+<div class="loading-screen">
+    <h1>Loading...</h1>
+</div>
