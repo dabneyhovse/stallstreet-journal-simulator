@@ -16,14 +16,10 @@
 
 </script>
 
-<Suspense>
-  <LoadingScreen slot="fallback" />
-  <Ssj />
-</Suspense>
 
-<T.AmbientLight intensity={6} />
+<T.AmbientLight intensity={0} />
 <T.HemisphereLight
-  intensity={6}
+  intensity={4}
 />
 
 <T.Group>
@@ -46,3 +42,5 @@
     />
   </T.PerspectiveCamera>
 </T.Group>
+
+<Ssj />

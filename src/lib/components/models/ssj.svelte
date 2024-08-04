@@ -21,6 +21,20 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
   {#await gltf}
     <slot name="fallback" />
   {:then gltf}
+    <T.Group position={[0.21, 0.57, 0.19]} rotation={[-Math.PI / 2, 0, -Math.PI]} scale={0.6}>
+      <T.Mesh
+        castShadow
+        receiveShadow
+        geometry={gltf.nodes.Object_4.geometry}
+        material={gltf.materials['Metal-Aluminium']}
+      />
+      <T.Mesh
+        castShadow
+        receiveShadow
+        geometry={gltf.nodes.Object_4_1.geometry}
+        material={gltf.materials['Surface-Whitewas']}
+      />
+    </T.Group>
     <T.Mesh
       castShadow
       receiveShadow
@@ -92,14 +106,14 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
       receiveShadow
       geometry={gltf.nodes.Cube009.geometry}
       material={gltf.materials['Material.012']}
-      position={[-0.51, -0.02, 1.33]}
+      position={[-0.88, 1.05, 0.65]}
     />
     <T.Mesh
       castShadow
       receiveShadow
       geometry={gltf.nodes.Cube019.geometry}
       material={gltf.materials.Material}
-      position={[-0.87, 0.06, 0.65]}
+      position={[-0.93, 0.08, 0.65]}
       scale={[0.62, 0.07, 1.2]}
     />
     <T.Mesh
@@ -107,7 +121,7 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
       receiveShadow
       geometry={gltf.nodes.Cube004.geometry}
       material={gltf.materials.Material}
-      position={[-0.87, 1.67, 0.65]}
+      position={[-0.93, 1.69, 0.65]}
       scale={[0.62, 0.07, 1.2]}
     />
     <T.Mesh
@@ -115,14 +129,14 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
       receiveShadow
       geometry={gltf.nodes.Cube007.geometry}
       material={gltf.materials['Material.006']}
-      position={[-0.51, -0.02, 1.33]}
+      position={[-0.28, 1.05, 0.65]}
     />
     <T.Mesh
       castShadow
       receiveShadow
       geometry={gltf.nodes.Cube010.geometry}
       material={gltf.materials.Material}
-      position={[-0.27, 0.06, 0.65]}
+      position={[-0.32, 0.08, 0.65]}
       scale={[0.62, 0.07, 1.2]}
     />
     <T.Mesh
@@ -130,7 +144,7 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
       receiveShadow
       geometry={gltf.nodes.Cube013.geometry}
       material={gltf.materials['Material.006']}
-      position={[-0.51, -0.02, 1.29]}
+      position={[-0.31, 0.86, 0.13]}
       scale={[1, 1, 0.98]}
     />
     <T.Mesh
@@ -138,7 +152,7 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
       receiveShadow
       geometry={gltf.nodes.Cube014.geometry}
       material={gltf.materials.Material}
-      position={[-0.27, 1.67, 0.65]}
+      position={[-0.32, 1.69, 0.65]}
       scale={[0.62, 0.07, 1.2]}
     />
     <T.Mesh
@@ -146,7 +160,7 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
       receiveShadow
       geometry={gltf.nodes.Cube015.geometry}
       material={gltf.materials['Material.006']}
-      position={[-0.51, -0.02, 1.33]}
+      position={[0.06, 0.91, 0.65]}
       scale={[1, 0.99, 1]}
     />
     <T.Mesh
@@ -154,14 +168,14 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
       receiveShadow
       geometry={gltf.nodes.Cube016.geometry}
       material={gltf.materials['Material.006']}
-      position={[-0.51, -0.02, 1.33]}
+      position={[0.31, 1.05, 0.65]}
     />
     <T.Mesh
       castShadow
       receiveShadow
       geometry={gltf.nodes.Cube017.geometry}
       material={gltf.materials.Material}
-      position={[0.33, 0.06, 0.65]}
+      position={[0.27, 0.08, 0.65]}
       scale={[0.62, 0.07, 1.2]}
     />
     <T.Mesh
@@ -177,7 +191,7 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
       receiveShadow
       geometry={gltf.nodes.Cube021.geometry}
       material={gltf.materials.Material}
-      position={[-0.26, 0.71, 0.62]}
+      position={[-0.25, 0.71, 0.62]}
       scale={[1.48, 1.56, 1]}
     />
     <T.Mesh
@@ -185,7 +199,7 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
       receiveShadow
       geometry={gltf.nodes.Cube024.geometry}
       material={gltf.materials['Material.006']}
-      position={[-0.51, -0.02, 1.29]}
+      position={[0.29, 0.86, 0.13]}
       scale={[1, 1, 0.98]}
     />
     <T.Mesh
@@ -193,7 +207,7 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
       receiveShadow
       geometry={gltf.nodes.Cube025.geometry}
       material={gltf.materials.Material}
-      position={[0.33, 1.67, 0.65]}
+      position={[0.27, 1.69, 0.65]}
       scale={[0.62, 0.07, 1.2]}
     />
     <T.Mesh
@@ -201,14 +215,14 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
       receiveShadow
       geometry={gltf.nodes.Cube027.geometry}
       material={gltf.materials['Material.006']}
-      position={[-0.51, -0.02, 1.33]}
+      position={[0.9, 1.05, 0.65]}
     />
     <T.Mesh
       castShadow
       receiveShadow
       geometry={gltf.nodes.Cube028.geometry}
       material={gltf.materials.Material}
-      position={[0.92, 0.06, 0.65]}
+      position={[0.86, 0.08, 0.65]}
       scale={[0.62, 0.07, 1.2]}
     />
     <T.Mesh
@@ -216,7 +230,7 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
       receiveShadow
       geometry={gltf.nodes.Cube032.geometry}
       material={gltf.materials.Material}
-      position={[0.92, 1.67, 0.65]}
+      position={[0.86, 1.69, 0.65]}
       scale={[0.62, 0.07, 1.2]}
     />
     <T.Mesh
