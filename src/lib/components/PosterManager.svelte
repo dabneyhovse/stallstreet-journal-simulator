@@ -13,7 +13,7 @@
         bp.open({
         items: [
             {
-                img: encodeURIComponent(textureUrl),
+                img: textureUrl,
                 width: textureSize[0]*3,
                 height: textureSize[1]*3,
             }
@@ -68,7 +68,7 @@
                 rotation = Math.PI / 2;
                 break;
             case 'right':
-                position = new Vector3(0, v, -u) + wallOffsets[wall];
+                position = new Vector3(0, v, -u);
                 position.add(wallOffsets[wall]);
                 rotation = Math.PI / 2;
                 break;
