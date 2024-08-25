@@ -31,6 +31,7 @@
     "@threlte/core": "^7.3.1",
     "@threlte/extras": "^8.11.5",
     "@threlte/rapier": "^2.0.1",
+    "bigger-picture": "^1.1.17",
     "camera-controls": "^2.8.5",
     "chokidar": "^3.6.0",
     "chokidar-cli": "^3.0.0",

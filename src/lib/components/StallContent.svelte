@@ -1,6 +1,14 @@
 <script>
     import { T } from '@threlte/core'
     import StallStreet from './StallStreet.svelte'
+
+    //        Left               Front              Right                Back
+    //      x = 0.27           z = 0.62           x = -0.29            z = -0.53
+    //   0.35 < y < 1.22    0.35 < y < 1.22     0.35 < y < 1.22      0.9 < y < 1.27
+    //  -0.45 < z < 0.55   -0.19 < x < 0.19    -0.45 < z < 0.55     -0.25 < x < 0.23
+
+
+
 </script>
 
 <!-- Stall door -->

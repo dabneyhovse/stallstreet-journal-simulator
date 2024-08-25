@@ -1,26 +1,55 @@
 <script>
   import { Suspense } from '@threlte/extras'
   import Ssj from './models/ssj.svelte'
-  import { T, useThrelte } from '@threlte/core'
+  import { T } from '@threlte/core'
   import CameraControls from './CameraControls.svelte'
   import { cameraControls } from './stores.js'
   import LoadingScreen from './LoadingScreen.svelte'
-  import StallContent from './StallContent.svelte'
+  import PosterManager from './PosterManager.svelte'
 
   let cam
 
   const EPS = 1e-5
-
-  const { renderer } = useThrelte()
-
-  // renderer.toneMappingExposure = 1
 
 </script>
 
 <Suspense>
   <LoadingScreen slot="fallback" />
   <Ssj />
-  <StallContent />
+  <!-- <StallContent /> -->
+  <PosterManager
+    posters={[
+      { texture: 'fine structure.png', size: 'small', wall: 'front' },
+      { texture: 'fine structure.png', size: 'small', wall: 'front' },
+      { texture: 'fine structure.png', size: 'small', wall: 'front' },
+      { texture: 'fine structure.png', size: 'small', wall: 'front' },
+      { texture: 'fine structure.png', size: 'small', wall: 'front' },
+      { texture: 'fine structure.png', size: 'small', wall: 'front' },
+      { texture: 'fine structure.png', size: 'small', wall: 'front' },
+      { texture: 'fine structure.png', size: 'small', wall: 'front' },
+      { texture: 'fine structure.png', size: 'small', wall: 'front' },
+      { texture: 'fine structure.png', size: 'small', wall: 'front' },
+      { texture: 'dabney_irony.png', size: 'medium', wall: 'left' },
+      { texture: 'dabney_irony.png', size: 'medium', wall: 'left' },
+      { texture: 'dabney_irony.png', size: 'medium', wall: 'left' },
+      { texture: 'dabney_irony.png', size: 'medium', wall: 'left' },
+      { texture: 'dabney_irony.png', size: 'medium', wall: 'left' },
+      { texture: 'dabney_irony.png', size: 'medium', wall: 'left' },
+      { texture: 'dabney_irony.png', size: 'medium', wall: 'left' },
+      { texture: 'dabney_irony.png', size: 'medium', wall: 'left' },
+      { texture: 'dabney_irony.png', size: 'medium', wall: 'left' },
+      { texture: 'dabney_irony.png', size: 'medium', wall: 'left' },
+      { texture: 'dabney_irony.png', size: 'medium', wall: 'left' },
+      { texture: 'dabney_irony.png', size: 'medium', wall: 'left' },
+      { texture: 'fine structure.png', size: 'small', wall: 'back' },
+      { texture: 'fine structure.png', size: 'small', wall: 'back' },
+      { texture: 'fine structure.png', size: 'small', wall: 'back' },
+      { texture: 'fine structure.png', size: 'small', wall: 'back' },
+      { texture: 'fine structure.png', size: 'small', wall: 'back' },
+      { texture: 'fine structure.png', size: 'small', wall: 'back' },
+      { texture: 'fine structure.png', size: 'small', wall: 'back' }
+    ]}
+  />
 
   <T.AmbientLight intensity={0} />
   <T.HemisphereLight
