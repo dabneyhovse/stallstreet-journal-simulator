@@ -6,7 +6,7 @@
   import { cameraControls } from './stores.js'
   import LoadingScreen from './LoadingScreen.svelte'
   import PosterManager from './PosterManager.svelte'
-  import { loadStallStreets } from './utils.js'
+  import posters from '$lib/stallstreets.json'
 
   let cam
 
@@ -44,13 +44,6 @@
 <Suspense final>
   <LoadingScreen slot="fallback" />
   <Ssj />
-  {#await loadStallStreets()}
-    <LoadingScreen />
-  {:then posters}
-    <PosterManager
-      posters={posters}
-    />
-  {:catch error}
-    <LoadingScreen />
-  {/await}
+  <PosterManager
+    posters={posters} />
 </Suspense>

@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "npm run generate-image-list && vite build",
     "preview": "vite preview",
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write .",
     "model-pipeline:run": "node scripts/model-pipeline.js",
-    "model-pipeline:watch": "chokidar 'static/models/**/*.glb' -c 'npm run model-pipeline:run; echo \"Model pipeline ran\"'"
+    "model-pipeline:watch": "chokidar 'static/models/**/*.glb' -c 'npm run model-pipeline:run; echo \"Model pipeline ran\"'",
+    "generate-image-list": "node scripts/loadStallStreets.js"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.0.0",

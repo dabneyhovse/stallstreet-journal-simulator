@@ -23,21 +23,3 @@ export function checkOverlap(newRect, existingRects) {
     });
 }
 
-export async function loadStallStreets() {
-    const response = await fetch('/api/images');
-    let images = await response.json();
-    images = images.map(image => {
-        return {
-            texture: image,
-            size: 'medium',
-            wall: getRandomElement(['left', 'right', 'front'])
-        };
-    });
-    return images;
-}
-
-export function getRandomElement(array) {
-    const randomIndex = Math.floor(Math.random() * array.length);
-    const randomElement = array[randomIndex];
-    return randomElement;
-}
