@@ -1,5 +1,5 @@
 <script>
-  import { Suspense } from '@threlte/extras'
+  import { Suspense, Text } from '@threlte/extras'
   import Ssj from './models/ssj.svelte'
   import { T } from '@threlte/core'
   import CameraControls from './CameraControls.svelte'
@@ -7,13 +7,24 @@
   import LoadingScreen from './LoadingScreen.svelte'
   import PosterManager from './PosterManager.svelte'
   import posters from '$lib/stallstreets.json'
+  import { tweened } from 'svelte/motion'
+  import { onMount } from 'svelte'
 
   let cam
+
+  let rotation = tweened(0)
+  onMount(() => {
+    // This function will update the rotation in a loop
+    function spin() {
+      rotation.update(r => r + 0.01)
+      requestAnimationFrame(spin)
+    }
+    spin()
+  })
 
   const EPS = 1e-5
 
 </script>
-
 
 <T.AmbientLight intensity={0} />
 <T.HemisphereLight
@@ -42,7 +53,7 @@
 </T.Group>
 
 <Suspense final>
-  <LoadingScreen slot="fallback" />
+  <Text text={"Loading..."} position={[0, 1, 1]} rotation={[0, Math.PI+$rotation, 0]} anchorX="center" anchorY="middle" fontSize=0.6 slot="fallback" />
   <Ssj />
   <PosterManager
     posters={posters} />
