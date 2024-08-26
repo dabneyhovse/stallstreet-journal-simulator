@@ -56,8 +56,9 @@
         <div class="credits">
             <h3>Guutz Shitpost #37</h3>
             <p>I came up with this one on the toilet.</p>
-            <p>WIP</p>
-            <small><i>Aug 1, 2024</i></small>
+            <p>Refresh to see a different random assortment.</p>
+            <p>Send me any missing ones.</p>
+            <small><i>Aug 25, 2024</i></small>
         </div>
     {/if}
 </div>

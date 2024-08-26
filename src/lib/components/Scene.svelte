@@ -53,7 +53,7 @@
 </T.Group>
 
 <Suspense final>
-  <Text text={"Loading..."} position={[0, 1, 1]} rotation={[0, Math.PI+$rotation, 0]} anchorX="center" anchorY="middle" fontSize=0.6 slot="fallback" />
+  <Text text={"Loading..."} position={[0, 1, 1]} rotation={[0, Math.PI+$rotation, 0]} anchorX="center" anchorY="middle" slot="fallback" />
   <Ssj />
   <PosterManager
     posters={posters} />
