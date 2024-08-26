@@ -4,11 +4,12 @@
   import { T } from '@threlte/core'
   import CameraControls from './CameraControls.svelte'
   import { cameraControls } from './stores.js'
-  import LoadingScreen from './LoadingScreen.svelte'
   import PosterManager from './PosterManager.svelte'
   import posters from '$lib/stallstreets.json'
   import { tweened } from 'svelte/motion'
   import { onMount } from 'svelte'
+  import { Euler, Vector3 } from 'three'
+  import Poop from './Poop.svelte'
 
   let cam
 
@@ -23,6 +24,26 @@
   })
 
   const EPS = 1e-5
+
+  const getId = () => {
+      return Math.random().toString(16).slice(2)
+  }
+
+  const getRandomRotation = () => {
+      return new Euler(Math.random() * 10, Math.random() * 10, Math.random() * 10)
+  }
+
+  let bodies = []
+
+  $: console.log(bodies)
+
+  function addPoop() {
+      bodies = [{
+          id: getId(),
+          position: new Vector3(0, 0.6, 0),
+          rotation: getRandomRotation()
+      }, ...bodies]
+    }
 
 </script>
 
@@ -54,7 +75,13 @@
 
 <Suspense final>
   <Text text={"Loading..."} position={[0, 1, 1]} rotation={[0, Math.PI+$rotation, 0]} anchorX="center" anchorY="middle" slot="fallback" />
-  <Ssj />
+  <Ssj on:poop={addPoop} />
   <PosterManager
     posters={posters} />
+  {#each bodies as body (body.id)}
+    <Poop
+      position={body.position}
+      rotation={body.rotation}
+    />
+  {/each}
 </Suspense>

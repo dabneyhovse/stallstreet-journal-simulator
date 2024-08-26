@@ -7,6 +7,11 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
   import { Group } from 'three'
   import { T, forwardEventHandlers } from '@threlte/core'
   import { useGltf, useSuspense } from '@threlte/extras'
+  import { interactivity } from '@threlte/extras'
+  interactivity()
+  import { createEventDispatcher } from 'svelte';
+  const dispatch = createEventDispatcher();
+  import { AutoColliders } from '@threlte/rapier'
 
   export const ref = new Group()
 
@@ -35,14 +40,21 @@ Command: npx @threlte/gltf@2.0.3 /Users/guutz/Desktop/shenanigans/yava/my-projec
         material={gltf.materials['Surface-Whitewas']}
       />
     </T.Group>
-    <T.Mesh
-      castShadow
-      receiveShadow
-      geometry={gltf.nodes.D_Low.geometry}
-      material={gltf.materials['Material.002']}
-      position={[0.01, -0.06, -0.12]}
-      rotation={[Math.PI / 2, 0, 0]}
-    />
+    <AutoColliders shape={'trimesh'}>
+      <T.Mesh
+        castShadow
+        receiveShadow
+        geometry={gltf.nodes.D_Low.geometry}
+        material={gltf.materials['Material.002']}
+        position={[0.01, -0.06, -0.12]}
+        rotation={[Math.PI / 2, 0, 0]}
+        on:click={(e) => {
+            dispatch('poop');
+            e.stopPropagation();
+          }
+        }
+      />
+    </AutoColliders>
     <T.Mesh
       castShadow
       receiveShadow
