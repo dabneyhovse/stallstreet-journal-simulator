@@ -18,7 +18,7 @@
   >
     <Collider
       shape={'ball'}
-      args={[0.08]}
+      args={[0.04]}
     />
     <Poop />
   </RigidBody>

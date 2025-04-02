@@ -1,7 +1,8 @@
 <script>
     import StallStreet from './StallStreet.svelte';
-    import { getScaledDimensions, checkOverlap } from './utils';
+    import { getScaledDimensions, checkOverlap, getRandomElement } from './utils';
     import { TextureLoader, Vector3 } from 'three';
+    import { wallOffsets, wallDimensions, sizeMapping, blockPlacingAreas } from './settings/constants'
     import BiggerPicture from 'bigger-picture';
     import "bigger-picture/css";
 
@@ -22,32 +23,7 @@
         })
     }
 
-    const wallDimensions = {
-        front: { width: 0.19*2+0.1, height: 1.22-0.35+0.14 },
-        left: { width: 0.27+0.29+0.1, height: 1.22-0.35+0.14 },
-        right: { width: 0.27+0.29+0.1, height: 1.22-0.35+0.14 },
-        back: { width: 0.25+0.23+0.1, height: 1.27-0.9+0.14 }
-    };
-
-    const wallOffsets = {
-        front: new Vector3(0.19+0.1/2, 0.35-0.14/2, 0.62),
-        left: new Vector3(0.27, 0.35-0.14/2, -0.45+0.1),
-        right: new Vector3(-0.29, 0.35-0.14/2, 0.55+0.1/2),
-        back: new Vector3(-0.25-0.1/2, 0.9-0.14/2, -0.53)
-    };
-
-    const sizeMapping = {
-        small: [0.1, 0.14],
-        medium: [0.2, 0.28],
-        large: [0.3, 0.42]
-    };
-
-    let placedRectangles = {
-        front: [],
-        left: [ { centerU: 0.15, centerV: 0.15, width: 0.3, height: 0.3 } ],
-        right: [ { centerU: 0.15, centerV: 0.15, width: 0.3, height: 0.3 } ],
-        back: []
-    };
+    let placedRectangles = blockPlacingAreas;
 
     export let posters = [];
 
@@ -82,7 +58,8 @@
     }
 
     posters.forEach(poster => {
-        const { texture, size, wall } = poster;
+        const { texture, size } = poster;
+        const wall = getRandomElement(['left', 'right', 'front', 'back']);
         const wallDim = wallDimensions[wall];
 
         const loader = new TextureLoader();

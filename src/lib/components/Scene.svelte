@@ -10,6 +10,7 @@
   import { onMount } from 'svelte'
   import { Euler, Vector3 } from 'three'
   import Poop from './Poop.svelte'
+  import { shuffleArray } from './utils'
 
   let cam
 
@@ -33,16 +34,16 @@
       return new Euler(Math.random() * 10, Math.random() * 10, Math.random() * 10)
   }
 
-  let bodies = []
+  let poops = []
 
-  $: console.log(bodies)
+  $: console.log(poops)
 
   function addPoop() {
-      bodies = [{
+      poops = [{
           id: getId(),
           position: new Vector3(0, 0.6, 0),
           rotation: getRandomRotation()
-      }, ...bodies]
+      }, ...poops]
     }
 
 </script>
@@ -77,8 +78,8 @@
   <Text text={"Loading..."} position={[0, 1, 1]} rotation={[0, Math.PI+$rotation, 0]} anchorX="center" anchorY="middle" slot="fallback" />
   <Ssj on:poop={addPoop} />
   <PosterManager
-    posters={posters} />
-  {#each bodies as body (body.id)}
+    posters={shuffleArray(posters)} />
+  {#each poops as body (body.id)}
     <Poop
       position={body.position}
       rotation={body.rotation}

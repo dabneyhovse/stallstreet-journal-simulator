@@ -23,3 +23,18 @@ export function checkOverlap(newRect, existingRects) {
     });
 }
 
+export function getRandomElement(array) {
+    const randomIndex = Math.floor(Math.random() * array.length);
+    const randomElement = array[randomIndex];
+    return randomElement;
+}
+
+export function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+    return array;
+}

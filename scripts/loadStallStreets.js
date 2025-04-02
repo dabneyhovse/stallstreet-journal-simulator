@@ -5,12 +5,6 @@ import { join, resolve } from 'path';
 const STATIC_DIR = resolve('static/ssj');
 const OUTPUT_FILE = resolve('src/lib/stallstreets.json');
 
-function getRandomElement(array) {
-    const randomIndex = Math.floor(Math.random() * array.length);
-    const randomElement = array[randomIndex];
-    return randomElement;
-}
-
 function getImages(dir) {
     let results = [];
     const list = readdirSync(dir);
@@ -19,8 +13,7 @@ function getImages(dir) {
         const stat = statSync(filePath);
         let img = {
             texture: "",
-            size: 'medium',
-            wall: getRandomElement(['left', 'right', 'front'])
+            size: 'medium'
         };
         if (stat && stat.isDirectory()) {
             results = results.concat(getImages(filePath));
