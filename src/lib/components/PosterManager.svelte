@@ -64,6 +64,7 @@
         const { id, title, size, pages } = poster;
         if (!pages || pages.length === 0) return;
         const texture = "ssj/" + pages[0];
+        console.log(texture);
         const wall = getRandomElement(['left', 'right', 'front', 'back']);
         const wallDim = wallDimensions[wall];
 
