@@ -1,478 +1,1074 @@
 [
-  {
-    "texture": "ssj/2021/2021.1.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.10.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.11.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.12.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.13.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.15.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.16.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.17.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.19.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.1a.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.1b.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.20.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.21.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.2a.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.2b.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.8.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2122/2122.9.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.1.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.10.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.11.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.12a.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.12b.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.13.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.14.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.15.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.16.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.17.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.19.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.2.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.20a.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.20b.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.21.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.22.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.24.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.25.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.27.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.3.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.35.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.38.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.39.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.4.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.40.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.5.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.6.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.7.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2223/2223.9.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.1.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.11.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.12.png",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.13.png",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.14.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.15.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.17.png",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.18.png",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.19.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.2.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.20.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.21.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.22.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.23.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.24.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.25a.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.25b.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.26.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.27.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.29.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.32.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.33.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.34.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.35.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.36.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.37.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.38.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.39.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.3a.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.3b.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.40.png",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.41.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.42.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.43.png",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.44.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.46.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.47.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.49.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.5.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.50.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.51a.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.51b.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.52.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.53.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.55.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.56.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.58.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.6.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.7.png",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.8.png",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2324/2324.9.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.10.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.12.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.12_2.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.12_3.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.12_4.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.12_5.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.12_6.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.12_7.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.13.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.16.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.18.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.22.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.25.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.26.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.3.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/2425/2425.8.jpeg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/SU24/SU24.1.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/SU24/SU24.2.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/SU24/SU24.3.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/SU24/SU24.4.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/SU24/SU24.5.jpg",
-    "size": "medium"
-  },
-  {
-    "texture": "ssj/SU24/SU24.6.jpg",
-    "size": "medium"
-  }
+    {
+        "id": "2021.1",
+        "title": "Jonathan, Jasinski, and Jaggie Joyless Jecorations\u00ae",
+        "size": "medium",
+        "pages": [
+            "2021/2021.1.jpg"
+        ]
+    },
+    {
+        "id": "2122.1",
+        "title": "A Notice From the Darbs for Existence's Integrity",
+        "size": "medium",
+        "pages": [
+            "2122/2122.1a.jpg"
+        ]
+    },
+    {
+        "id": "2122.1",
+        "title": "Re: Alternative Undergraduate Housing Arrangements",
+        "size": "medium",
+        "pages": [
+            "2122/2122.1b.jpg"
+        ]
+    },
+    {
+        "id": "2122.2",
+        "title": "BESPECTACLED MENACE EXPOSED",
+        "size": "medium",
+        "pages": [
+            "2122/2122.2a.jpg"
+        ]
+    },
+    {
+        "id": "2122.2",
+        "title": "RIP Vending Machine Beans",
+        "size": "medium",
+        "pages": [
+            "2122/2122.2b.jpg"
+        ]
+    },
+    {
+        "id": "2122.8",
+        "title": "ORE reveals details of new gender suite",
+        "size": "medium",
+        "pages": [
+            "2122/2122.8.jpg"
+        ]
+    },
+    {
+        "id": "2122.9",
+        "title": "INVESTIGATORS PONDER NEW THEORIES ON GRAFFITI MEGAMIND",
+        "size": "medium",
+        "pages": [
+            "2122/2122.9.jpg"
+        ]
+    },
+    {
+        "id": "2122.10",
+        "title": "Report all manifestations of platonic solids",
+        "size": "medium",
+        "pages": [
+            "2122/2122.10.jpg"
+        ]
+    },
+    {
+        "id": "2122.11",
+        "title": "Vandal bait",
+        "size": "medium",
+        "pages": [
+            "2122/2122.11.jpg"
+        ]
+    },
+    {
+        "id": "2122.12",
+        "title": "Do you really think this is WAR?",
+        "size": "medium",
+        "pages": [
+            "2122/2122.12.jpg"
+        ]
+    },
+    {
+        "id": "2122.13",
+        "title": "The case against the usage of Fr*sh",
+        "size": "medium",
+        "pages": [
+            "2122/2122.13.jpg"
+        ]
+    },
+    {
+        "id": "2122.15",
+        "title": "DEI/ChE/EE/ESE 169. Philosophical Problems in Instant Notification Services",
+        "size": "medium",
+        "pages": [
+            "2122/2122.15.jpg"
+        ]
+    },
+    {
+        "id": "2122.16",
+        "title": "Re: Announcement of the PEA Division and PE Option and Minor",
+        "size": "medium",
+        "pages": [
+            "2122/2122.16.jpg"
+        ]
+    },
+    {
+        "id": "2122.17",
+        "title": "WANTED! KENNY THAI",
+        "size": "small",
+        "pages": [
+            "2122/2122.17.jpg"
+        ]
+    },
+    {
+        "id": "2122.19",
+        "title": "Chips",
+        "size": "medium",
+        "pages": [
+            "2122/2122.19.jpg"
+        ]
+    },
+    {
+        "id": "2122.20",
+        "title": "THE FUTURE! IS BEST!",
+        "size": "medium",
+        "pages": [
+            "2122/2122.20.jpg"
+        ]
+    },
+    {
+        "id": "2122.21",
+        "title": "On the difference between Yams and Sweet Potatoes",
+        "size": "medium",
+        "pages": [
+            "2122/2122.21.jpg"
+        ]
+    },
+    {
+        "id": "2223.1",
+        "title": "A Notice From the Darbs for Existence's Integrity",
+        "size": "medium",
+        "pages": [
+            "2223/2223.1.jpg"
+        ]
+    },
+    {
+        "id": "2223.2",
+        "title": "Want to enter the 4th Dimension?",
+        "size": "medium",
+        "pages": [
+            "2223/2223.2.jpg"
+        ]
+    },
+    {
+        "id": "2223.3",
+        "title": "Caltech Alert: Personal Safety Emergency Lockdown Update 4: The Campus Wide Lockdown Remains In Effect: Informational Updates: Lawnmower Rampage",
+        "size": "medium",
+        "pages": [
+            "2223/2223.3.jpeg"
+        ]
+    },
+    {
+        "id": "2223.4",
+        "title": "KEEP YOUR CATALYTIC CONVERTERS SAFE",
+        "size": "medium",
+        "pages": [
+            "2223/2223.4.jpeg"
+        ]
+    },
+    {
+        "id": "2223.5",
+        "title": "What is the woodworking competition and why it is bad for Dabney house",
+        "size": "medium",
+        "pages": [
+            "2223/2223.5.jpg"
+        ]
+    },
+    {
+        "id": "2223.6",
+        "title": "A Response On On the difference between Yams and Sweet Potatoes",
+        "size": "medium",
+        "pages": [
+            "2223/2223.6.jpg"
+        ]
+    },
+    {
+        "id": "2223.7",
+        "title": "WHO IS THE DABNEY SANTA?",
+        "size": "medium",
+        "pages": [
+            "2223/2223.7.jpg"
+        ]
+    },
+    {
+        "id": "2223.9",
+        "title": "Journalistic Excellence at the Stall Street",
+        "size": "small",
+        "pages": [
+            "2223/2223.9.jpg"
+        ]
+    },
+    {
+        "id": "2223.10",
+        "title": "The Queen Reincarnates as Malibu Barbie Paytas-Hacmon",
+        "size": "medium",
+        "pages": [
+            "2223/2223.10.jpg"
+        ]
+    },
+    {
+        "id": "2223.11",
+        "title": "STALLSTREET JOURNAL IN TURMOIL",
+        "size": "medium",
+        "pages": [
+            "2223/2223.11.jpg"
+        ]
+    },
+    {
+        "id": "2223.12",
+        "title": "Genetically modified rats terrorizing Seattle",
+        "size": "medium",
+        "pages": [
+            "2223/2223.12a.jpg"
+        ]
+    },
+    {
+        "id": "2223.\u27cd\u0305~7\u14b7\u00a6",
+        "title": "A world in which counting is necessary is not a world worth preserving.",
+        "size": "medium",
+        "pages": [
+            "2223/2223.13.jpg"
+        ]
+    },
+    {
+        "id": "2223.14",
+        "title": "Meatman",
+        "size": "medium",
+        "pages": [
+            "2223/2223.14.jpg"
+        ]
+    },
+    {
+        "id": "2223.15",
+        "title": "The Case of the Missing Supplies",
+        "size": "medium",
+        "pages": [
+            "2223/2223.15.jpg"
+        ]
+    },
+    {
+        "id": "2223.16",
+        "title": "Watch closely for deer",
+        "size": "medium",
+        "pages": [
+            "2223/2223.16.jpg"
+        ]
+    },
+    {
+        "id": "2223.17 & cellie is sus",
+        "title": "Meatman (1:45am edition)",
+        "size": "medium",
+        "pages": [
+            "2223/2223.17.jpg"
+        ]
+    },
+    {
+        "id": "2223.19",
+        "title": "ANOMALOUS ENTITIES LOOSE IN DABNEY HOVSE",
+        "size": "medium",
+        "pages": [
+            "2223/2223.19.jpg"
+        ]
+    },
+    {
+        "id": "2223.20",
+        "title": "Incident report: Hello Kitty",
+        "size": "medium_landscape",
+        "pages": [
+            "2223/2223.20a.jpeg"
+        ]
+    },
+    {
+        "id": "2223.21",
+        "title": "L/VC 142. Introduction to Korean Pop.",
+        "size": "medium",
+        "pages": [
+            "2223/2223.21.jpg"
+        ]
+    },
+    {
+        "id": "2223.22",
+        "title": "Dabney descends into chaos following anomalous entity reveal",
+        "size": "medium",
+        "pages": [
+            "2223/2223.22.jpg"
+        ]
+    },
+    {
+        "id": "2223.24",
+        "title": "Report all manifestations of platonic solids",
+        "size": "medium",
+        "pages": [
+            "2223/2223.24.jpg"
+        ]
+    },
+    {
+        "id": "2223.25",
+        "title": "Excomm did WHAT with your money?!?",
+        "size": "medium",
+        "pages": [
+            "2223/2223.25.jpeg"
+        ]
+    },
+    {
+        "id": "2223.27",
+        "title": "Sentiment analysis of Dabney confessions",
+        "size": "medium",
+        "pages": [
+            "2223/2223.27.jpg"
+        ]
+    },
+    {
+        "id": "2223.33",
+        "title": "THE COUNCIL HAS SPOKEN",
+        "size": "medium",
+        "pages": [
+            "2223/2223.33.jpg"
+        ]
+    },
+    {
+        "id": "2223.35",
+        "title": "SPORT!",
+        "size": "medium",
+        "pages": [
+            "2223/2223.35.jpg"
+        ]
+    },
+    {
+        "id": "2223.36",
+        "title": "Happy Pi Day coupons",
+        "size": "medium",
+        "pages": [
+            "2223/2223.36.jpg"
+        ]
+    },
+    {
+        "id": "2223.37",
+        "title": "Suspicious hydra",
+        "size": "medium",
+        "pages": [
+            "2223/2223.37.jpg"
+        ]
+    },
+    {
+        "id": "2223.38",
+        "title": "Un Lettre de Rupture",
+        "size": "medium",
+        "pages": [
+            "2223/2223.38.jpg"
+        ]
+    },
+    {
+        "id": "2223.39",
+        "title": "SOCCER!!!",
+        "size": "medium",
+        "pages": [
+            "2223/2223.39.jpeg"
+        ]
+    },
+    {
+        "id": "2223.40",
+        "title": "6.9 places you wouldn't expect to find former president Sophie Piao",
+        "size": "medium",
+        "pages": [
+            "2223/2223.40.jpeg"
+        ]
+    },
+    {
+        "id": "2324.1",
+        "title": "A Notice From the Darbs for Existence's Integrity",
+        "size": "medium",
+        "pages": [
+            "2324/2324.1.jpg"
+        ]
+    },
+    {
+        "id": "2324.2",
+        "title": "Mudhuts",
+        "size": "medium",
+        "pages": [
+            "2324/2324.2.jpeg"
+        ]
+    },
+    {
+        "id": "2324.3",
+        "title": "IF YOU DONT WASH YOUR DISHES, YOUR DISHES WILL WASH YOU!",
+        "size": "small",
+        "pages": [
+            "2324/2324.3a.jpeg"
+        ]
+    },
+    {
+        "id": "2324.3",
+        "title": "Dodgeball",
+        "size": "small",
+        "pages": [
+            "2324/2324.3b.jpeg"
+        ]
+    },
+    {
+        "id": "2324.4",
+        "title": "Surviving America",
+        "size": "medium",
+        "pages": []
+    },
+    {
+        "id": "2324.5",
+        "title": "DODGEBALL!!!!!!",
+        "size": "medium",
+        "pages": [
+            "2324/2324.5.jpeg"
+        ]
+    },
+    {
+        "id": "2324.6",
+        "title": "Ewaist was meant to live in the machine room",
+        "size": "medium",
+        "pages": [
+            "2324/2324.6.jpg"
+        ]
+    },
+    {
+        "id": "2324.7",
+        "title": "Heinz yellow mustard",
+        "size": "small",
+        "pages": [
+            "2324/2324.7.png"
+        ]
+    },
+    {
+        "id": "2324.8",
+        "title": "Having trouble seeing at Jtree?",
+        "size": "medium",
+        "pages": [
+            "2324/2324.8.png"
+        ]
+    },
+    {
+        "id": "2324.9",
+        "title": "As you may have heard, the Class of 2027 broke enrollment records.",
+        "size": "medium",
+        "pages": [
+            "2324/2324.9.jpg"
+        ]
+    },
+    {
+        "id": "2324.11",
+        "title": "Clairvoyant Digest: Runic programming forum flame war leaves 2 dead, 7 injured, 3 turned into newts",
+        "size": "medium",
+        "pages": [
+            "2324/2324.11.jpg"
+        ]
+    },
+    {
+        "id": "2324.12",
+        "title": "Speak Sus (DABNEY'S VERSION)",
+        "size": "medium",
+        "pages": [
+            "2324/2324.12.png"
+        ]
+    },
+    {
+        "id": "2324.13",
+        "title": "42069 (DABNEY'S VERSION)",
+        "size": "medium",
+        "pages": [
+            "2324/2324.13.png"
+        ]
+    },
+    {
+        "id": "2324.14",
+        "title": "Clairvoyant Digest: All-Seeing Eye really more of a Mostly-Seeing Eye",
+        "size": "medium",
+        "pages": [
+            "2324/2324.14.jpg"
+        ]
+    },
+    {
+        "id": "2324.15",
+        "title": "Did YOU know there are bathrooms other than this one?",
+        "size": "medium",
+        "pages": [
+            "2324/2324.15.jpg"
+        ]
+    },
+    {
+        "id": "2324.17",
+        "title": "Can you see in 3D?",
+        "size": "medium",
+        "pages": [
+            "2324/2324.17.png"
+        ]
+    },
+    {
+        "id": "2324.18",
+        "title": "Dimensionless impostor",
+        "size": "small",
+        "pages": [
+            "2324/2324.18.png"
+        ]
+    },
+    {
+        "id": "2324.19",
+        "title": "You may not like it, but this is what the ideal setup looks like",
+        "size": "medium",
+        "pages": [
+            "2324/2324.19.jpeg"
+        ]
+    },
+    {
+        "id": "2324.20",
+        "title": "BASKETBALL!!!!!",
+        "size": "medium",
+        "pages": [
+            "2324/2324.20.jpeg"
+        ]
+    },
+    {
+        "id": "2324.21",
+        "title": "An Analysis of Tape",
+        "size": "medium",
+        "pages": [
+            "2324/2324.21.jpg"
+        ]
+    },
+    {
+        "id": "2324.22",
+        "title": "Residue",
+        "size": "small",
+        "pages": [
+            "2324/2324.22.jpg"
+        ]
+    },
+    {
+        "id": "2324.23",
+        "title": "Geoscientist pays off student loans by selling cursed ring to Bay Area startup",
+        "size": "medium",
+        "pages": [
+            "2324/2324.23.jpg"
+        ]
+    },
+    {
+        "id": "2324.24",
+        "title": "quANTuMANia",
+        "size": "medium",
+        "pages": [
+            "2324/2324.24.jpg"
+        ]
+    },
+    {
+        "id": "2324.25",
+        "title": "He got that dog in him",
+        "size": "medium",
+        "pages": [
+            "2324/2324.25b.jpeg",
+            "2324/2324.25a.jpeg"
+        ]
+    },
+    {
+        "id": "2324.26",
+        "title": "Dabney excomm has heard your complaints",
+        "size": "medium",
+        "pages": [
+            "2324/2324.26.png"
+        ]
+    },
+    {
+        "id": "2324.27",
+        "title": "Electrical outlet",
+        "size": "small",
+        "pages": [
+            "2324/2324.27.jpg"
+        ]
+    },
+    {
+        "id": "2324.29",
+        "title": "Clairvoyant Digest: Chronos party reports break-in",
+        "size": "medium",
+        "pages": [
+            "2324/2324.29.jpg"
+        ]
+    },
+    {
+        "id": "2324.32",
+        "title": "??????????????????",
+        "size": "medium",
+        "pages": [
+            "2324/2324.32.jpg"
+        ]
+    },
+    {
+        "id": "2324.33",
+        "title": "Clairvoyant Digest: DEI issues apology for losing track of Time",
+        "size": "medium",
+        "pages": [
+            "2324/2324.33.jpg"
+        ]
+    },
+    {
+        "id": "2324.34",
+        "title": "From Unabomber to Unagamer",
+        "size": "medium",
+        "pages": [
+            "2324/2324.34.jpg"
+        ]
+    },
+    {
+        "id": "2324.35",
+        "title": "Clairvoyant Digest: Approval ratings soar after mayor of Los Angeles turned into potted plant",
+        "size": "medium",
+        "pages": [
+            "2324/2324.35.jpg"
+        ]
+    },
+    {
+        "id": "2324.36",
+        "title": "Virtual Dabney Dinner",
+        "size": "medium",
+        "pages": [
+            "2324/2324.36.jpg"
+        ]
+    },
+    {
+        "id": "2324.37",
+        "title": "try eating strips of lead paint",
+        "size": "medium",
+        "pages": [
+            "2324/2324.37.png"
+        ]
+    },
+    {
+        "id": "2324.38",
+        "title": "ULTIMATE FRISBEE!!!!!!!",
+        "size": "medium",
+        "pages": [
+            "2324/2324.38.jpeg"
+        ]
+    },
+    {
+        "id": "2324.39",
+        "title": "Lilia when darbs don't show up for frisbee",
+        "size": "medium",
+        "pages": [
+            "2324/2324.39.jpeg"
+        ]
+    },
+    {
+        "id": "2324.40",
+        "title": "The Vandal of the Stalls",
+        "size": "medium",
+        "pages": [
+            "2324/2324.40.png"
+        ]
+    },
+    {
+        "id": "2324.41",
+        "title": "SQUAT SONG",
+        "size": "medium",
+        "pages": [
+            "2324/2324.41.jpeg"
+        ]
+    },
+    {
+        "id": "2324.42",
+        "title": "We could have had an ANVIL!",
+        "size": "medium",
+        "pages": [
+            "2324/2324.42.jpeg"
+        ]
+    },
+    {
+        "id": "2324.43",
+        "title": "Learn the truth",
+        "size": "small",
+        "pages": [
+            "2324/2324.43.png"
+        ]
+    },
+    {
+        "id": "2324.44",
+        "title": "Dabney Traveling Dinners 2024",
+        "size": "medium_landscape",
+        "pages": [
+            "2324/2324.44.jpg"
+        ]
+    },
+    {
+        "id": "2324.46",
+        "title": "An Alley Is Plotting Against You",
+        "size": "small",
+        "pages": [
+            "2324/2324.46.jpg"
+        ]
+    },
+    {
+        "id": "2324.47",
+        "title": "BDSM: Beyond Data Storage Medium",
+        "size": "medium",
+        "pages": [
+            "2324/2324.47.jpg"
+        ]
+    },
+    {
+        "id": "2324.48",
+        "title": "Earthquake Detector",
+        "size": "medium",
+        "pages": []
+    },
+    {
+        "id": "2324.49",
+        "title": "Chips 2",
+        "size": "large",
+        "pages": [
+            "2324/2324.49.jpg"
+        ]
+    },
+    {
+        "id": "2324.50",
+        "title": "Have you been removing these?",
+        "size": "medium",
+        "pages": [
+            "2324/2324.50.jpg"
+        ]
+    },
+    {
+        "id": "2324.51",
+        "title": "El Gatito",
+        "size": "medium",
+        "pages": [
+            "2324/2324.51a.jpg"
+        ]
+    },
+    {
+        "id": "2324.52",
+        "title": "Ranked competitive Wii Party",
+        "size": "medium",
+        "pages": [
+            "2324/2324.52.jpg"
+        ]
+    },
+    {
+        "id": "2324.53",
+        "title": "Queer representation in film and popular entertainment",
+        "size": "medium",
+        "pages": [
+            "2324/2324.53.jpg"
+        ]
+    },
+    {
+        "id": "2324.54",
+        "title": "Rat Prism",
+        "size": "medium",
+        "pages": []
+    },
+    {
+        "id": "2324.55",
+        "title": "FREE!",
+        "size": "small",
+        "pages": [
+            "2324/2324.55.jpg"
+        ]
+    },
+    {
+        "id": "2324.56",
+        "title": "DABNEY SOC VPS ASSERT CONTROL",
+        "size": "medium_landscape",
+        "pages": [
+            "2324/2324.56.jpg"
+        ]
+    },
+    {
+        "id": "2324.57",
+        "title": "Wanted: Texas Red",
+        "size": "medium",
+        "pages": [
+            "2324/2324.57.jpg"
+        ]
+    },
+    {
+        "id": "2324.58",
+        "title": "SUMMER 2024 CHECK-OUT/ROOM-MOVE GUIDELINES",
+        "size": "medium",
+        "pages": [
+            "2324/2324.58.jpg"
+        ]
+    },
+    {
+        "id": "SU24.1",
+        "title": "Welcome Summer Students",
+        "size": "medium",
+        "pages": [
+            "SU24/SU24.1.jpg"
+        ]
+    },
+    {
+        "id": "SU24.2",
+        "title": "Honor Code",
+        "size": "medium",
+        "pages": [
+            "SU24/SU24.2.jpg"
+        ]
+    },
+    {
+        "id": "SU24.3",
+        "title": "Citrus",
+        "size": "small",
+        "pages": [
+            "SU24/SU24.3.jpg"
+        ]
+    },
+    {
+        "id": "SU24.4",
+        "title": "Who are you?",
+        "size": "small",
+        "pages": [
+            "SU24/SU24.4.jpg"
+        ]
+    },
+    {
+        "id": "SU24.5",
+        "title": "Coyotech",
+        "size": "small",
+        "pages": [
+            "SU24/SU24.5.jpg"
+        ]
+    },
+    {
+        "id": "SU24.6",
+        "title": "Did YOU know there are bathrooms other than this one?",
+        "size": "medium",
+        "pages": [
+            "SU24/SU24.6.jpg"
+        ]
+    },
+    {
+        "id": "2425.1",
+        "title": "Dabney Boat Tours",
+        "size": "medium",
+        "pages": [
+            "2425/2425.1.jpg"
+        ]
+    },
+    {
+        "id": "2425.2",
+        "title": "Save Caltech Pond['s Reputation]",
+        "size": "medium",
+        "pages": [
+            "2425/2425.2.jpg"
+        ]
+    },
+    {
+        "id": "2425.3",
+        "title": "Wii Party 3",
+        "size": "medium",
+        "pages": [
+            "2425/2425.3.jpg"
+        ]
+    },
+    {
+        "id": "2425.4",
+        "title": "A viewer's guide to THE ROOM",
+        "size": "medium_landscape",
+        "pages": [
+            "2425/2425.4.jpg"
+        ]
+    },
+    {
+        "id": "2425.5",
+        "title": "Analyzing the impact of Parental Styles on College Admission Outcomes",
+        "size": "medium",
+        "pages": [
+            "2425/2425.5_1.jpg",
+            "2425/2425.5_2.jpg",
+            "2425/2425.5_3.jpg",
+            "2425/2425.5_4.jpg"
+        ]
+    },
+    {
+        "id": "2425.6",
+        "title": "Kevin Gilmartin's Obsession with Community Conduct Standards",
+        "size": "medium",
+        "pages": [
+            "2425/2425.6a.jpg"
+        ]
+    },
+    {
+        "id": "2425.6",
+        "title": "Balsurab Energy Co.",
+        "size": "medium",
+        "pages": [
+            "2425/2425.6b.jpg"
+        ]
+    },
+    {
+        "id": "2425.8",
+        "title": "COYOTES IN AREA",
+        "size": "medium",
+        "pages": [
+            "2425/2425.8.jpeg"
+        ]
+    },
+    {
+        "id": "2425.9",
+        "title": "Evolving from unnecessary nerd shit",
+        "size": "medium",
+        "pages": [
+            "2425/2425.9.jpg"
+        ]
+    },
+    {
+        "id": "2425.10",
+        "title": "Question the Quail",
+        "size": "small",
+        "pages": [
+            "2425/2425.10.jpeg"
+        ]
+    },
+    {
+        "id": "2425.11",
+        "title": "Open Excomm Meeting Agenda",
+        "size": "medium",
+        "pages": [
+            "2425/2425.11.jpg"
+        ]
+    },
+    {
+        "id": "2425.12",
+        "title": "Why do they call it oven why you of in the cold food of out hot eat the food?",
+        "size": "large",
+        "pages": [
+            "2425/2425.12.jpg",
+            "2425/2425.12_2.jpg",
+            "2425/2425.12_3.jpg",
+            "2425/2425.12_4.jpg",
+            "2425/2425.12_5.jpg",
+            "2425/2425.12_6.jpg",
+            "2425/2425.12_7.jpg"
+        ]
+    },
+    {
+        "id": "2425.13",
+        "title": "In this house we believe...",
+        "size": "medium",
+        "pages": [
+            "2425/2425.13.jpeg"
+        ]
+    },
+    {
+        "id": "2425.14",
+        "title": "Come and 'Kerck' it in Kerckhoff",
+        "size": "medium",
+        "pages": [
+            "2425/2425.14.jpg"
+        ]
+    },
+    {
+        "id": "2425.16",
+        "title": "Stallstreets can be any size",
+        "size": "medium",
+        "pages": [
+            "2425/2425.16.jpeg"
+        ]
+    },
+    {
+        "id": "2425.17",
+        "title": "S\u00c1T\u00c1NTANG\u00d3",
+        "size": "medium",
+        "pages": [
+            "2425/2425.17.jpg"
+        ]
+    },
+    {
+        "id": "2425.18",
+        "title": "Radical UNacceptance",
+        "size": "medium",
+        "pages": [
+            "2425/2425.18.jpeg"
+        ]
+    },
+    {
+        "id": "2425.19",
+        "title": "10pm Noyes 153 friday",
+        "size": "medium",
+        "pages": [
+            "2425/2425.19.jpg"
+        ]
+    },
+    {
+        "id": "2425.19",
+        "title": "The Gayest Man Alive",
+        "size": "medium",
+        "pages": []
+    },
+    {
+        "id": "2425.20",
+        "title": "www.floatationdevice.\u2588\u2588\u2588",
+        "size": "medium",
+        "pages": []
+    },
+    {
+        "id": "2425.21",
+        "title": "Happy John's Day",
+        "size": "medium_landscape",
+        "pages": [
+            "2425/2425.21.jpeg"
+        ]
+    },
+    {
+        "id": "2425.22",
+        "title": "Dabney Traveling Dinner Schedule 2025",
+        "size": "medium",
+        "pages": [
+            "2425/2425.22.jpg"
+        ]
+    },
+    {
+        "id": "2425.23",
+        "title": "Recruiting Pure Talent for a Kpop Level Survival Show",
+        "size": "medium",
+        "pages": [
+            "2425/2425.23.jpg"
+        ]
+    },
+    {
+        "id": "2425.24",
+        "title": "Gullible",
+        "size": "medium",
+        "pages": [
+            "2425/2425.24a.jpg"
+        ]
+    },
+    {
+        "id": "2425.24",
+        "title": "April 1st Backyard 1pm",
+        "size": "medium",
+        "pages": [
+            "2425/2425.24b.jpg"
+        ]
+    },
+    {
+        "id": "2425.25",
+        "title": "Dabney SSJ printers",
+        "size": "medium",
+        "pages": [
+            "2425/2425.25.jpg"
+        ]
+    },
+    {
+        "id": "2425.26",
+        "title": "In loving memory: Dabney Webprint",
+        "size": "medium",
+        "pages": [
+            "2425/2425.26.jpeg"
+        ]
+    },
+    {
+        "id": "2425.28",
+        "title": "Modern Mondays for Modern Reptiles",
+        "size": "medium",
+        "pages": [
+            "2425/2425.28.jpeg"
+        ]
+    }
 ]

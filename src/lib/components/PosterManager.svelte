@@ -10,16 +10,19 @@
         target: document.body,
     })
 
-    function showStallStreet(textureUrl, id, textureSize) {
+    function showStallStreet(pages) {
         bp.open({
-        items: [
-            {
-                img: textureUrl,
-                width: textureSize[0]*3,
-                height: textureSize[1]*3,
-            }
-        ],
-        intro: 'fadeup'
+            // items: [
+            //     {
+            //         img: textureUrl,
+            //         width: textureSize[0]*3,
+            //         height: textureSize[1]*3,
+            //     }
+            // ],
+            items: pages.map((page) => ({
+                img: "ssj/" + page
+            })),
+            intro: 'fadeup'
         })
     }
 
@@ -58,7 +61,9 @@
     }
 
     posters.forEach(poster => {
-        const { texture, size } = poster;
+        const { id, title, size, pages } = poster;
+        if (!pages || pages.length === 0) return;
+        const texture = "ssj/" + pages[0];
         const wall = getRandomElement(['left', 'right', 'front', 'back']);
         const wallDim = wallDimensions[wall];
 
@@ -76,7 +81,7 @@
                 if (!checkOverlap(newRect, placedRectangles[wall])) {
                     const { position, rotation } = positionRotation_from_uv_wall(newRect.centerU, newRect.centerV, wall);
                     calculatedPosters = [...calculatedPosters, {
-                        texture,
+                        pages,
                         size,
                         position,
                         rotation
@@ -96,7 +101,7 @@
                         if (!checkOverlap(newRect, placedRectangles[wall])) {
                             const { position, rotation } = positionRotation_from_uv_wall(u, v, wall);
                             calculatedPosters = [...calculatedPosters, {
-                                texture,
+                                pages,
                                 size,
                                 position,
                                 rotation
@@ -116,12 +121,12 @@
 
 {#each calculatedPosters as poster}
     <StallStreet
-        textureUrl={poster.texture}
+        pages={poster.pages}
         size={poster.size}
         position={poster.position}
         direction={poster.rotation}
         on:stallstreet={({ detail }) => {
-            showStallStreet(detail.textureUrl, detail.id, detail.textureSize);
+            showStallStreet(detail.pages);
         }}
     />
 {/each}

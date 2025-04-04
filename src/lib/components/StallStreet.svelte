@@ -3,28 +3,23 @@
     import { onMount } from 'svelte';
     import { TextureLoader } from 'three';
     import { interactivity } from '@threlte/extras'
+    import { sizeMapping } from './settings/constants'
     interactivity()
 
     import { createEventDispatcher } from 'svelte';
     const dispatch = createEventDispatcher();
 
-    export let textureUrl = '';  // URL of the texture image
+    export let pages = [];  // URL of the texture image
     export let size = 'small';  // Size of the poster: 'small', 'medium', 'large'
     export let position = [0, 0, 0]; // [x, y, z] position in 3D space
     export let direction = 0;    // Rotation around the Y-axis
 
+    let textureUrl = "ssj/" + pages[0];
     let texture = null;
     let finalSize = [0.1, 0.14]; // Default size if no size specified
     let textureSize = [0, 0];
 
     let color = 0x959595;
-
-    // Size mapping (maximum dimensions)
-    const sizeMapping = {
-        small: [0.1, 0.14],
-        medium: [0.2, 0.28],
-        large: [0.4, 0.42],
-    };
 
     const id = Math.random().toString(36).substring(7);
 
@@ -66,7 +61,7 @@
 <T.Group position={position} rotation={[0, direction, 0]}>
     <T.Mesh
       on:click={() => {
-        dispatch('stallstreet', { textureUrl, id, textureSize });
+        dispatch('stallstreet', { pages });
       }}
       on:pointerenter={(e) => {
         color = 0x009500

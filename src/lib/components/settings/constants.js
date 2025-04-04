@@ -17,6 +17,7 @@ export const wallOffsets = {
 export const sizeMapping = {
     small: [0.1, 0.14],
     medium: [0.2, 0.28],
+    medium_landscape: [0.28, 0.2],
     large: [0.3, 0.42]
 };
 
