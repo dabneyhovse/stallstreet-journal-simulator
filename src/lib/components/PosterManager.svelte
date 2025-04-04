@@ -6,8 +6,6 @@
     import BiggerPicture from 'bigger-picture';
     import "bigger-picture/css";
 
-    console.log("PosterManager");
-
     let bp = BiggerPicture({
         target: document.body,
     })
@@ -62,10 +60,12 @@
         return { position: position.toArray(), rotation };
     }
 
-    console.log(posters);
     posters.forEach(poster => {
         const { id, title, size, pages } = poster;
-        if (!pages || pages.length === 0) return;
+        if (!pages || pages.length === 0) {
+            console.warn(`Poster with id ${id} has no pages.`);
+            return;
+        }
         const texture = "ssj/" + pages[0];
         const wall = getRandomElement(['left', 'right', 'front', 'back']);
         const wallDim = wallDimensions[wall];
