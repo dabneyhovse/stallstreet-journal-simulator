@@ -10,17 +10,12 @@
         target: document.body,
     })
 
-    function showStallStreet(pages) {
+    function showStallStreet(pages, textureSizes) {
         bp.open({
-            // items: [
-            //     {
-            //         img: textureUrl,
-            //         width: textureSize[0]*3,
-            //         height: textureSize[1]*3,
-            //     }
-            // ],
-            items: pages.map((page) => ({
-                img: "ssj/" + page
+            items: pages.map((page, i) => ({
+                img: "ssj/" + page,
+                width: textureSizes[i].width,
+                height: textureSizes[i].height
             })),
             intro: 'fadeup'
         })
@@ -129,7 +124,7 @@
         position={poster.position}
         direction={poster.rotation}
         on:stallstreet={({ detail }) => {
-            showStallStreet(detail.pages);
+            showStallStreet(detail.pages, detail.textureSizes);
         }}
     />
 {/each}

@@ -1,13 +1,15 @@
-export function getScaledDimensions(textureWidth, textureHeight, size, sizeMapping) {
-    const [maxWidth, maxHeight] = sizeMapping[size] || sizeMapping['medium'];
+import { sizeMapping } from './settings/constants'
+
+export function getScaledDimensions(textureWidth, textureHeight, size) {
+    const largest_dim = sizeMapping[size] || sizeMapping['medium'];
     const aspectRatio = textureWidth / textureHeight;
 
     let width, height;
     if (aspectRatio > 1) {
-        width = Math.min(maxWidth, maxWidth * aspectRatio);
+        width = largest_dim;
         height = width / aspectRatio;
     } else {
-        height = Math.min(maxHeight, maxHeight / aspectRatio);
+        height = largest_dim;
         width = height * aspectRatio;
     }
 

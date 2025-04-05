@@ -3,7 +3,7 @@
     import { onMount } from 'svelte';
     import { TextureLoader } from 'three';
     import { interactivity } from '@threlte/extras'
-    import { sizeMapping } from './settings/constants'
+    import { getScaledDimensions } from './utils';
     interactivity()
 
     import { createEventDispatcher } from 'svelte';
@@ -14,54 +14,33 @@
     export let position = [0, 0, 0]; // [x, y, z] position in 3D space
     export let direction = 0;    // Rotation around the Y-axis
 
-    let textureUrl = "ssj/" + pages[0];
-    let texture = null;
-    let finalSize = [0.1, 0.14]; // Default size if no size specified
-    let textureSize = [0, 0];
+    let textures = [null];
+    let finalSizes = [{width: 0.1, height: 0.14}]; // Default size if no size specified
+    let textureSizes = [];
 
     let color = 0x959595;
 
     const id = Math.random().toString(36).substring(7);
+    const loader = new TextureLoader();
 
     onMount(() => {
-        if (textureUrl) {
-            const loader = new TextureLoader();
-            loader.load(textureUrl, (loadedTexture) => {
-                texture = loadedTexture;
-                textureSize = [loadedTexture.image.width, loadedTexture.image.height];
-                // Calculate the aspect ratio of the texture
-                const aspectRatio = loadedTexture.image.width / loadedTexture.image.height;
-
-                // Get the maximum dimensions for the specified size category
-                const [maxWidth, maxHeight] = sizeMapping[size] || [0.1, 0.14];
-
-                // Adjust the size to maintain the aspect ratio
-                if (aspectRatio > 1) {
-                    // Wider than tall
-                    finalSize = [Math.min(maxWidth, maxWidth * aspectRatio), Math.min(maxHeight, maxWidth / aspectRatio)];
-                } else {
-                    // Taller than wide
-                    finalSize = [Math.min(maxWidth, maxHeight * aspectRatio), Math.min(maxHeight, maxHeight / aspectRatio)];
-                }
+        for (let i = 0; i < pages.length; i++) {
+            loader.load("ssj/" + pages[i], (loadedTexture) => {
+                textures[i] = loadedTexture;
+                textureSizes[i] = {width: loadedTexture.image.width, height: loadedTexture.image.height};
+                finalSizes[i] = getScaledDimensions(textureSizes[0].width, textureSizes[0].height, size)
             }, undefined, (error) => {
                 console.error('Error loading texture:', error);
             });
-        } else {
-            // Set final size based on the specified size category
-            finalSize = sizeMapping[size] || [0.1, 0.14];
         }
     });
 
-
-    function randomColor() {
-        return Math.random() * 0xffffff;
-    }
 </script>
 
 <T.Group position={position} rotation={[0, direction, 0]}>
     <T.Mesh
       on:click={() => {
-        dispatch('stallstreet', { pages });
+        dispatch('stallstreet', { pages, textureSizes });
       }}
       on:pointerenter={(e) => {
         color = 0x009500
@@ -70,10 +49,10 @@
         color = 0x959595
       }}
     >
-        <T.BoxGeometry args={[finalSize[0], finalSize[1], 0.001]} />
+        <T.BoxGeometry args={[finalSizes[0].width, finalSizes[0].height, 0.001]} />
         <T.MeshBasicMaterial 
-            map={texture} 
-            color={texture ? color : randomColor()}
+            map={textures[0]} 
+            color={color}
         />
     </T.Mesh>
 </T.Group>

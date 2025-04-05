@@ -1,5 +1,15 @@
 [
     {
+        "id": "1617.5",
+        "title": "How C-3PO is a Sith Lord",
+        "size": "medium",
+        "pages": [
+            "1617/1617.5.jpg",
+            "1617/1617.5_2.jpg",
+            "1617/1617.5_3.jpg"
+        ]
+    },
+    {
         "id": "2021.1",
         "title": "Jonathan, Jasinski, and Jaggie Joyless Jecorations\u00ae",
         "size": "medium",
@@ -106,7 +116,7 @@
     {
         "id": "2122.17",
         "title": "WANTED! KENNY THAI",
-        "size": "small",
+        "size": "medium",
         "pages": [
             "2122/2122.17.jpg"
         ]
@@ -829,7 +839,7 @@
     {
         "id": "SU24.5",
         "title": "Coyotech",
-        "size": "small",
+        "size": "medium",
         "pages": [
             "SU24/SU24.5.jpg"
         ]
@@ -936,7 +946,7 @@
     {
         "id": "2425.12",
         "title": "Why do they call it oven why you of in the cold food of out hot eat the food?",
-        "size": "large",
+        "size": "medium",
         "pages": [
             "2425/2425.12.jpg",
             "2425/2425.12_2.jpg",
